@@ -1,0 +1,59 @@
+/* 
+selector{
+    property: value;
+}
+*/
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+p {
+  color: #ffaaaa;
+  text-align: center;
+  border: 3px solid rgba(124, 23, 23, 0.5);
+  cursor: pointer;
+}
+
+p {
+  line-height: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: "Poiret One", cursive;
+}
+
+img {
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext:first-child {
+  border: 3px dashed green;
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+  background-color: rgba(0, 255, 0, 0.2);
+}

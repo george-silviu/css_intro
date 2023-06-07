@@ -1,0 +1,14 @@
+h2 {
+  color: blue;
+}
+
+p {
+  font-size: 10px;
+}
+
+/* em - font of span is 5 times (5em) the size of containing element(p)*/
+
+/* rem -  font of span is 5 times (5rem) the size of the root element; the root element is html*/
+span {
+  font-size: 2rem;
+}
